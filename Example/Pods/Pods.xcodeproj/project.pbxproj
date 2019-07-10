@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187F56C431930AAC5D133AF5E8F122E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1F7FD24CDBFC9D0A83DC842320D6BE91 /* Pods-ResizeableScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB95987924A8F00C28D414CD36F29734 /* Pods-ResizeableScrollView_Example-dummy.m */; };
+		2803B2F9139856E4104180DD3A7DE061 /* ResizeableScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0023549021C25AC70180C2ABD1EEDE /* ResizeableScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720E0206C313A5056BC3EA6FEA250AED /* Pods-ResizeableScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8671C89DCB35EB70F0B3C85C1BBBDCA /* Pods-ResizeableScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		993C1D9D4F356FB5CFC5AFFB9360553B /* ResizeableScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 749950A41CA69F65281B2C2864EAB4F1 /* ResizeableScrollView-dummy.m */; };
+		C98291057E196D6282C7C95044434659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C98C75A0FDBB38A42E7B95736D43DC9D /* ResizeableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672095BED41BC639508AA0B930DAAF04 /* ResizeableScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A9FC90BD6CC1A7A5BC9CBDE12ED9245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB380CF4E7C396FE39A06D286B5449C;
+			remoteInfo = ResizeableScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0023549021C25AC70180C2ABD1EEDE /* ResizeableScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ResizeableScrollView-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35AA1A4793B44308B89C0DC1A8289110 /* Pods-ResizeableScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeableScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		49D353C222327D43EA7C87F804A82500 /* Pods-ResizeableScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResizeableScrollView_Example-Info.plist"; sourceTree = "<group>"; };
+		4CD1E652741065854F026B29337C78BB /* Pods-ResizeableScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ResizeableScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		672095BED41BC639508AA0B930DAAF04 /* ResizeableScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResizeableScrollView.swift; path = ResizeableScrollView/Classes/ResizeableScrollView.swift; sourceTree = "<group>"; };
+		749950A41CA69F65281B2C2864EAB4F1 /* ResizeableScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ResizeableScrollView-dummy.m"; sourceTree = "<group>"; };
+		7BAD7EF5D29FB69D2FAC8C69FB2EE340 /* ResizeableScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResizeableScrollView-Info.plist"; sourceTree = "<group>"; };
+		833AC1251A704C77D400ABA85F0DBBD7 /* ResizeableScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ResizeableScrollView.modulemap; sourceTree = "<group>"; };
+		83C997A0F6F04AF85BE16612375AA821 /* Pods-ResizeableScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeableScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8589DAAE6BE991ED5C677607E6ACD638 /* ResizeableScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ResizeableScrollView.framework; path = ResizeableScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		900963C816A64FBB0D61917CF015B5B5 /* Pods-ResizeableScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizeableScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9C8EA5A612509FADCA9988116D21C302 /* ResizeableScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ResizeableScrollView-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11027B7066649CA3DE673879FF97E23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A8743CE32D4194EA0FC682B24DAC960D /* ResizeableScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ResizeableScrollView.xcconfig; sourceTree = "<group>"; };
+		C01D2FB03DA96E81E2C790D5296009D0 /* Pods-ResizeableScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ResizeableScrollView_Example.modulemap"; sourceTree = "<group>"; };
+		C8671C89DCB35EB70F0B3C85C1BBBDCA /* Pods-ResizeableScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ResizeableScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E4D16CF9376C20F185DDCF7C61C13FBD /* Pods-ResizeableScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResizeableScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB95987924A8F00C28D414CD36F29734 /* Pods-ResizeableScrollView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ResizeableScrollView_Example-dummy.m"; sourceTree = "<group>"; };
+		F27CD9F73EE4F15AA612D42A3BC68D2E /* ResizeableScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ResizeableScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F457032B8314A6BFF77292DE169C7EBB /* Pods_ResizeableScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ResizeableScrollView_Example.framework; path = "Pods-ResizeableScrollView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD1EF8EF4BCB924F2F6B2ED476FC8113 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72BAB032778A8163CCB51F847FC1E713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187F56C431930AAC5D133AF5E8F122E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4ED034F3F41998529897CB2B411225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98291057E196D6282C7C95044434659 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		446537F3858C6E0A31DF2F049CD63564 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E55F9A0696FA3C9883B5A60AEF1F1765 /* ResizeableScrollView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		479D2ACDE0AC05DC569E43D7F68A0D1C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FD1EF8EF4BCB924F2F6B2ED476FC8113 /* LICENSE */,
+				A11027B7066649CA3DE673879FF97E23 /* README.md */,
+				F27CD9F73EE4F15AA612D42A3BC68D2E /* ResizeableScrollView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		52629F9F7FB6022F56E23274998E7853 /* Pods-ResizeableScrollView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C01D2FB03DA96E81E2C790D5296009D0 /* Pods-ResizeableScrollView_Example.modulemap */,
+				4CD1E652741065854F026B29337C78BB /* Pods-ResizeableScrollView_Example-acknowledgements.markdown */,
+				E4D16CF9376C20F185DDCF7C61C13FBD /* Pods-ResizeableScrollView_Example-acknowledgements.plist */,
+				EB95987924A8F00C28D414CD36F29734 /* Pods-ResizeableScrollView_Example-dummy.m */,
+				900963C816A64FBB0D61917CF015B5B5 /* Pods-ResizeableScrollView_Example-frameworks.sh */,
+				49D353C222327D43EA7C87F804A82500 /* Pods-ResizeableScrollView_Example-Info.plist */,
+				C8671C89DCB35EB70F0B3C85C1BBBDCA /* Pods-ResizeableScrollView_Example-umbrella.h */,
+				35AA1A4793B44308B89C0DC1A8289110 /* Pods-ResizeableScrollView_Example.debug.xcconfig */,
+				83C997A0F6F04AF85BE16612375AA821 /* Pods-ResizeableScrollView_Example.release.xcconfig */,
+			);
+			name = "Pods-ResizeableScrollView_Example";
+			path = "Target Support Files/Pods-ResizeableScrollView_Example";
+			sourceTree = "<group>";
+		};
+		AC3CB9F5C9C693084FFD70B47A4E4506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F457032B8314A6BFF77292DE169C7EBB /* Pods_ResizeableScrollView_Example.framework */,
+				8589DAAE6BE991ED5C677607E6ACD638 /* ResizeableScrollView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA64E4F62FEF63977310740189C1E4C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52629F9F7FB6022F56E23274998E7853 /* Pods-ResizeableScrollView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				446537F3858C6E0A31DF2F049CD63564 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AC3CB9F5C9C693084FFD70B47A4E4506 /* Products */,
+				BFA64E4F62FEF63977310740189C1E4C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E145ADDD5C1A8207199569E318E28C8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				833AC1251A704C77D400ABA85F0DBBD7 /* ResizeableScrollView.modulemap */,
+				A8743CE32D4194EA0FC682B24DAC960D /* ResizeableScrollView.xcconfig */,
+				749950A41CA69F65281B2C2864EAB4F1 /* ResizeableScrollView-dummy.m */,
+				7BAD7EF5D29FB69D2FAC8C69FB2EE340 /* ResizeableScrollView-Info.plist */,
+				9C8EA5A612509FADCA9988116D21C302 /* ResizeableScrollView-prefix.pch */,
+				1F0023549021C25AC70180C2ABD1EEDE /* ResizeableScrollView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ResizeableScrollView";
+			sourceTree = "<group>";
+		};
+		E55F9A0696FA3C9883B5A60AEF1F1765 /* ResizeableScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				672095BED41BC639508AA0B930DAAF04 /* ResizeableScrollView.swift */,
+				479D2ACDE0AC05DC569E43D7F68A0D1C /* Pod */,
+				E145ADDD5C1A8207199569E318E28C8A /* Support Files */,
+			);
+			name = ResizeableScrollView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F0FFADAD40D45FF4CF233A5046352EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2803B2F9139856E4104180DD3A7DE061 /* ResizeableScrollView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF55F465F7A71D0B23945AD55548A182 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720E0206C313A5056BC3EA6FEA250AED /* Pods-ResizeableScrollView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		300BB18D2657D5722E5DC96839940D5B /* Pods-ResizeableScrollView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09570FE172E27CD2BC0AA1EBC3766D55 /* Build configuration list for PBXNativeTarget "Pods-ResizeableScrollView_Example" */;
+			buildPhases = (
+				AF55F465F7A71D0B23945AD55548A182 /* Headers */,
+				3B1F6B85C51AAA15D50356F7BD00CC7F /* Sources */,
+				9F4ED034F3F41998529897CB2B411225 /* Frameworks */,
+				5A3FCA76FFC096E89834BF155257B543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4FCFAF6AEFF9287BFAE982191911C88 /* PBXTargetDependency */,
+			);
+			name = "Pods-ResizeableScrollView_Example";
+			productName = "Pods-ResizeableScrollView_Example";
+			productReference = F457032B8314A6BFF77292DE169C7EBB /* Pods_ResizeableScrollView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FB380CF4E7C396FE39A06D286B5449C /* ResizeableScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC6E4C9305C27804041C54AC4ADF052 /* Build configuration list for PBXNativeTarget "ResizeableScrollView" */;
+			buildPhases = (
+				0F0FFADAD40D45FF4CF233A5046352EA /* Headers */,
+				4C6843B67EF98F58179F12FE08E3D256 /* Sources */,
+				72BAB032778A8163CCB51F847FC1E713 /* Frameworks */,
+				C6A0E3CD86D406F8D736F1D2BE44C9BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizeableScrollView;
+			productName = ResizeableScrollView;
+			productReference = 8589DAAE6BE991ED5C677607E6ACD638 /* ResizeableScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AC3CB9F5C9C693084FFD70B47A4E4506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				300BB18D2657D5722E5DC96839940D5B /* Pods-ResizeableScrollView_Example */,
+				5FB380CF4E7C396FE39A06D286B5449C /* ResizeableScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A3FCA76FFC096E89834BF155257B543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A0E3CD86D406F8D736F1D2BE44C9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1F6B85C51AAA15D50356F7BD00CC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7FD24CDBFC9D0A83DC842320D6BE91 /* Pods-ResizeableScrollView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6843B67EF98F58179F12FE08E3D256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993C1D9D4F356FB5CFC5AFFB9360553B /* ResizeableScrollView-dummy.m in Sources */,
+				C98C75A0FDBB38A42E7B95736D43DC9D /* ResizeableScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4FCFAF6AEFF9287BFAE982191911C88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ResizeableScrollView;
+			target = 5FB380CF4E7C396FE39A06D286B5449C /* ResizeableScrollView */;
+			targetProxy = 1A9FC90BD6CC1A7A5BC9CBDE12ED9245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64E0ED49E0FE640F0873144962CDED21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8743CE32D4194EA0FC682B24DAC960D /* ResizeableScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ResizeableScrollView/ResizeableScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ResizeableScrollView/ResizeableScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ResizeableScrollView/ResizeableScrollView.modulemap";
+				PRODUCT_MODULE_NAME = ResizeableScrollView;
+				PRODUCT_NAME = ResizeableScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC4D3E792974AA032281E1D6DAB15745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8743CE32D4194EA0FC682B24DAC960D /* ResizeableScrollView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ResizeableScrollView/ResizeableScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ResizeableScrollView/ResizeableScrollView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ResizeableScrollView/ResizeableScrollView.modulemap";
+				PRODUCT_MODULE_NAME = ResizeableScrollView;
+				PRODUCT_NAME = ResizeableScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D2CDF0652741F81D27C8263E5F5BE015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AA1A4793B44308B89C0DC1A8289110 /* Pods-ResizeableScrollView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ResizeableScrollView_Example/Pods-ResizeableScrollView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ResizeableScrollView_Example/Pods-ResizeableScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0EB7155252202283CF1F166DD5F08E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C997A0F6F04AF85BE16612375AA821 /* Pods-ResizeableScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ResizeableScrollView_Example/Pods-ResizeableScrollView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ResizeableScrollView_Example/Pods-ResizeableScrollView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09570FE172E27CD2BC0AA1EBC3766D55 /* Build configuration list for PBXNativeTarget "Pods-ResizeableScrollView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CDF0652741F81D27C8263E5F5BE015 /* Debug */,
+				FF0EB7155252202283CF1F166DD5F08E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC6E4C9305C27804041C54AC4ADF052 /* Build configuration list for PBXNativeTarget "ResizeableScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E0ED49E0FE640F0873144962CDED21 /* Debug */,
+				AC4D3E792974AA032281E1D6DAB15745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

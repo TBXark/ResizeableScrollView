@@ -1,0 +1,6 @@
+framework module ResizeableScrollView {
+  umbrella header "ResizeableScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}
