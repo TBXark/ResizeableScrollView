@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ResizeableScrollView_Example' do
+  pod 'ResizeableScrollView', :path => '../'
+
+  target 'ResizeableScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
